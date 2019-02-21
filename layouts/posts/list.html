@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{ with .Content }}
+    {{ . }} 
+{{ end }}  
+
+
+<div class="posts">
+<ul>
+  {{ range .Pages }}
+    {{ partial "post-list-item.html" . }}
+  {{ end }}
+  </ul>
+</div>
+{{ end }}

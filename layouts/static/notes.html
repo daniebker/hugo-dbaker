@@ -1,0 +1,7 @@
+{{ define "main" }} {{ with .Content }} {{ . }} {{ end }}
+
+{{ range (.Site.GetPage "section" "notes").Sections }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+{{ end }}
+
+{{ end }}

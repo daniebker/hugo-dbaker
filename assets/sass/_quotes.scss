@@ -1,0 +1,5 @@
+@import "_formatting.scss";
+
+blockquote {
+    @extend .italic;
+}

@@ -1,0 +1,35 @@
+@import "_variables.scss";
+@import "_formatting.scss";
+
+.breadcrumbs {
+    margin-top: 40px;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+
+    ul li {
+        display: inline;
+        padding-right: 25px;
+    }
+}
+
+.footer {
+    margin-top: 40px;
+}
+
+.posts {
+    .tags {
+        padding-left: 10px; 
+        float: right;
+    }
+}
+
+@media only screen and (max-width: $mobile-breakpoint) {
+    .posts {
+        .tags {
+            float: none;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{{ define "title" }}
+  <!-- This will override the default value set in baseof.html; i.e., "{{.Site.Title}}" in the original example-->
+{{ end }}
+{{ define "main" }}
+
+
+<article class="article">
+  <h1 class="title">{{ .Title }}</h1>
+  {{ .Content }}
+</article>
+{{ end }}

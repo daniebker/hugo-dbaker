@@ -1,0 +1,9 @@
+.italic {
+    font-style: italic;
+}
+
+.posts {
+    .tags {
+        @extend .italic;
+    }
+}

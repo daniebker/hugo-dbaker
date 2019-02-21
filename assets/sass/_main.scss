@@ -1,0 +1,14 @@
+@import "_variables.scss";
+
+body {    
+    margin: 40px auto;
+    max-width: 750px;
+    line-height: 1.6;
+    padding: 0 10px;
+    font-family:  $font-stack;
+}
+
+pre {
+    overflow: auto;
+    padding: 5px;
+}
