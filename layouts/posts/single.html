@@ -4,6 +4,7 @@
 {{ define "main" }}
 <atricle class="blog-post">
   <h1 class="title">{{ .Title }}</h1>
+  <span class="published-date">{{ .PublishDate.Format "January 2, 2006" }}</span>
    {{ .Content }}
 </article>
 {{ end }}

@@ -1,5 +1,11 @@
+@import "_variables.scss";
+
 .italic {
     font-style: italic;
+}
+
+.published-date {
+    color: $gray;
 }
 
 .posts {
